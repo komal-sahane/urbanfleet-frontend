@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* center vertically */
+  align-items: center;     /* center horizontally */
+  height: calc(100vh - 60px); /* adjust for navbar height */
+  text-align: center;
+  background-color: #f8f9fa; /* optional soft background */
+}
+
+.home-container h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.home-container p {
+  font-size: 1.2rem;
+  color: #555;
+}
